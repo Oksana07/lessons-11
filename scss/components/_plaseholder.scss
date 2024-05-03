@@ -1,0 +1,18 @@
+%button {
+  display: inline-flex;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 11px 20px;
+  color: wheat;
+  background-color: gray;
+}
+
+.button-succsess {
+ @extend %button;
+  background-color: green;
+}
+
+.button-error {
+ 
+  background-color: red;
+}
