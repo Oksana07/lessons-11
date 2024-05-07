@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/components/_plaseholder.scss"],"names":[],"mappings":"AAAA,iBACE,oBACA,kBACA,eACA,kBACA,YACA,sBAGF,iBAEE,uBAGF,cAEE","file":"style.min.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/components/_mixin.scss","../scss/components/_plaseholder.scss"],"names":[],"mappings":"AAWA,QAVA,4BACA,+BAWE,gBACA,mBAGF,SAhBA,2BACA,8BAiBE,aACA,mBAGF,KAjBE,6BACA,0BACA,mBAiBF,yBACA,WACA,YACA,eC5BA,+BACE,oBACA,kBACA,eACA,kBACA,YACA,sBAGF,iBAEE,uBAGF,cAEE","file":"style.min.css"}

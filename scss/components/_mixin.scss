@@ -1,0 +1,30 @@
+@mixin bordered($color){
+border-top: 1px solid $color;
+border-bottom: 1px solid $color;
+}
+
+@mixin button-size($width, $height){
+  padding: $height / 3 $width /3;
+  font-size: $height / 3;
+  border-radius: $height / 2;
+}
+
+.header{
+  @include bordered(tomato);
+  min-height: 80px;
+  margin-bottom: 20px
+}
+
+.section{
+  @include bordered(green);
+  padding: 20px;
+  margin-bottom: 20px
+}
+
+.btn{
+  @include button-size(120px, 40px);
+background-color: #0056b3;
+color: white;
+border: none;
+cursor: pointer;
+}

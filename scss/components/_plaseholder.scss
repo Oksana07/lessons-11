@@ -13,6 +13,6 @@
 }
 
 .button-error {
- 
+  @extend %button;
   background-color: red;
 }
